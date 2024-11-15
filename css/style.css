@@ -1,0 +1,28 @@
+#map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.header {
+    display: flex; /* Устанавливает флекс-контейнер */
+    align-items: center; /* Выравнивает элементы по вертикали */
+    gap: 10px; /* Расстояние между изображением и текстом */
+    padding: 15px;
+}
+
+.header_text {
+    margin: 0; /* Убираем стандартные отступы */
+    font-size: 42px; /* Регулируем размер текста */
+    color: rgb(220, 0, 0);
+}
